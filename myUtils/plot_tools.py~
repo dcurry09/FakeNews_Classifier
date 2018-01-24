@@ -1,0 +1,21 @@
+##########################################
+#  Plot_tools.py
+#
+#  Useful Plots for Pandas datframes
+#
+# By David Curry,  Oct 2017
+#
+##########################################
+
+import csv as csv
+import numpy as np
+import pandas as pd
+import pylab as py
+import matplotlib.pyplot as plt
+
+
+def TwoHists_compare(hist1, hist2):
+    '''
+    Plots two pandas column
+    '''
+    
